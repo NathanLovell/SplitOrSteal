@@ -59,14 +59,14 @@ int main()
           <<"win a prize and go home with NOTHING!\n";
     }
 
-    cout << "Would you like to play again? 1: Yes  2: No"
+    cout << "Would you like to play again? 1: Yes  2: No" << endl;
     do{
       cin >> play_again;
       if(play_again != 1 || play_again != 2){
         cout << "Please enter either 1 or 2" << endl;
       }
     }while(play_again != 1 || play_again != 2);
-}while(playagain == 1);
+}while(play_again == 1);
 
 cout << "Have a great day!" << endl;
 
