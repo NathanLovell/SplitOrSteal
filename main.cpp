@@ -38,8 +38,8 @@ int main()
     cout<<player2name<<", please enter the character of your choice...\n";
     cin>>decision2;
 
-    decistion1 = tolower(decistion1);
-    decistion2 = tolower(decistion2);
+    decision1 = tolower(decision1);
+    decision2 = tolower(decision2);
 
     if(decision1 == 't' && decision2 == 's')
     {
