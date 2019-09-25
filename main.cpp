@@ -38,6 +38,9 @@ int main()
     cout<<player2name<<", please enter the character of your choice...\n";
     cin>>decision2;
 
+    decistion1 = tolower(decistion1);
+    decistion2 = tolower(decistion2);
+
     if(decision1 == 't' && decision2 == 's')
     {
       cout<<player1name<<" stole while "<<player2name<<" split. "
